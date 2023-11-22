@@ -1,0 +1,314 @@
+:root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
+:root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.02em; --letter-spacing-button-text: 0.04em; --letter-spacing-logo: 0.03em; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--SLATE);
+    background-color: var(--WHITE);
+    }
+
+.list 
+{
+    list-style: none;
+}
+
+.link { 
+    text-decoration: none; 
+  }
+
+button {
+    cursor: pointer;
+}
+
+
+.logo-begin-up 
+{ color: var(--IRIS);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: var(--letter-spacing-logo);
+    text-transform: uppercase;
+}
+
+.logo-end-up 
+{ color: var(--NAVY);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: var(--letter-spacing-logo);
+    text-transform: uppercase;
+}
+
+.nav-menu
+{
+    color: var(--NAVY);
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-text);
+}
+
+.link:hover, .link:focus { color: var(--OCEAN) }
+
+.address
+{
+    font-style: normal;
+}
+.address-text
+{
+    color: var(--SLATE);
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-text);
+text-decoration: none;
+}
+
+/* index.html main filling */
+.main-index
+{
+    background: var(--NAVY);
+}
+
+.main-index-header-text
+{
+    color: var(--WHITE);
+text-align: center;
+/* Header 1 */
+font-family: 'Roboto', sans-serif;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: var(--main-header-text);
+}
+
+.ibutton
+{
+   
+    color: var(--WHITE);
+/* Button Text */
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-button-text);
+background-color: var(--IRIS);
+}
+
+.ibutton:focus, .ibutton:hover { background-color: var(--OCEAN); }
+
+
+.studio-header
+{
+    color: var(--WHITE);
+}
+
+.features-list-header
+{
+    color: var(--NAVY);
+/* Header 3 */
+font-family:  'Roboto', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: var(--letter-spacing-h3);
+}
+
+.features-list-text
+{
+    color: var(--SLATE);
+/* Body */
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-text);
+}
+
+.works-header 
+{
+    color: var(--NAVY);
+text-align: center;
+/* Header 2 */
+font-family:  'Roboto', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: var(--letter-spacing-h2);
+text-transform: capitalize;
+}
+
+.team
+{
+    background-color: var(--CLOUD);
+}
+
+.team-image
+{
+    background-color: var(--WHITE);
+}
+
+.our-team-header
+{
+    color: var(--NAVY);
+text-align: center;
+/* Header 2 */
+font-family:  'Roboto', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: var(--letter-spacing-h2);
+text-transform: capitalize;
+}
+
+.our-team-list-header
+{
+    color: var(--NAVY);
+/* text-align: center; */
+/* Header 3 */
+font-family:  'Roboto', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: var(--letter-spacing-h3);
+}
+
+.our-team-list-text
+{
+    color: var(--SLATE);
+/* text-align: center; */
+/* Body */
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-text);
+}
+
+/* portfolio.html main filling */
+
+
+.all-pbutton
+{
+    color: var(--WHITE);
+text-align: center;
+/* Button Text */
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-button-text);
+
+background: var(--OCEAN);
+
+}
+
+.pbutton
+{
+    color: var(--IRIS);
+    text-align: center;
+    /* Button Text */
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing-button-text);
+    
+    background: var(--CLOUD);
+    
+}
+
+.pbutton:hover, .pbutton:focus 
+{
+    color: var(--WHITE);
+    background-color: var(--OCEAN);
+
+}
+
+.photo-header
+{ 
+    color: var(--WHITE);
+}
+
+.pworks-header 
+{
+    color: var(--NAVY);
+/* Header 3 */
+font-family:  'Roboto', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: var(--letter-spacing-h3);
+
+}
+
+.photo-text
+{
+    color: var(--SLATE);
+    /* Body */
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing-text);
+}
+
+footer
+{
+    background: var(--NAVY);
+}
+.logo-begin-down
+{
+    color: var(--IRIS);
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: var(--letter-spacing-logo);
+text-transform: uppercase;
+}
+.logo-end-down
+{
+    color: var(--CLOUD);
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: var(--letter-spacing-logo);
+text-transform: uppercase;
+}
+.footer-text
+{
+    color: var(--CLOUD);
+/* Body */
+font-family:  'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: var(--letter-spacing-text);
+}
