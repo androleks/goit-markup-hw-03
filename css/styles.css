@@ -1,7 +1,19 @@
 :root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
 :root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.02em; --letter-spacing-button-text: 0.04em; --letter-spacing-logo: 0.03em; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;}
 
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -56,7 +68,8 @@ line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
 }
 
-.link:hover, .link:focus { color: var(--OCEAN) }
+.nav-menu:hover, .nav-menu:focus { color: var(--OCEAN) }
+.address-text:hover, .address-text:focus { color: var(--OCEAN) }
 
 .address
 {
