@@ -268,6 +268,7 @@ button {
 
 .team {
   background-color: var(--CLOUD);
+
 }
 
 .team-header {
@@ -282,12 +283,13 @@ button {
     letter-spacing: var(--letter-spacing-h2);
     text-transform: capitalize;
     padding-top: 120px;
-  }
+      }
 
   .team-list {
     display: flex;
 gap: 24px;
-    padding: 72px 120px;
+    padding-top: 72px;
+    padding-bottom: 120px;
   }
   
 .team-card {
@@ -299,7 +301,7 @@ gap: 24px;
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
-    /* width: calc((100% - 24px * 3) / 4); */
+    width: calc((100% - 24px * 3) / 4);
   }
 
 .team-image {
