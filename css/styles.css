@@ -1,5 +1,5 @@
-:root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF;}
-:root {--letter-spacing-h2: 0.72px; --letter-spacing-h3: 0.02em; --letter-spacing-button-text: 0.04em; --letter-spacing-logo: 0.03em; --letter-spacing-text: 0.32px; --main-header-text: 1.12px;}
+:root {--IRIS: #4D5AE5; --NAVY: #2E2F42; --SLATE: #434455; --WHITE: #FFF;--CLOUD: #F4F4FD; --OCEAN: #404BBF; --CORNFLOWER: #E7E9FC;}
+:root {--letter-spacing-h2: 0.036em; --letter-spacing-h3: 0.02em; --letter-spacing-button-text: 0.04em; --letter-spacing-logo: 0.03em; --letter-spacing-text: 0.02em px; --main-header-text: 0.02em;}
 
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
@@ -24,6 +24,8 @@ body {
 .list 
 {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link { 
@@ -34,6 +36,23 @@ button {
     cursor: pointer;
 }
 
+.container
+{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header-container
+{
+    display: flex;
+flex-direction: raw;
+width: 1440px;
+height: 72px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
 
 .logo-begin-up 
 { color: var(--IRIS);
@@ -66,6 +85,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
+display: flex;
+flex-direction: raw;
+
+gap: 40px;
 }
 
 .nav-menu:hover, .nav-menu:focus { color: var(--OCEAN) }
@@ -87,10 +110,11 @@ letter-spacing: var(--letter-spacing-text);
 text-decoration: none;
 }
 
-/* index.html main filling */
+/* ===================== index.html main filling =====================*/
 .main-index
 {
     background: var(--NAVY);
+    justify-content: center;
 }
 
 .main-index-header-text
@@ -118,6 +142,9 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: var(--letter-spacing-button-text);
 background-color: var(--IRIS);
+display: block;
+margin-left: 636px;
+
 }
 
 .ibutton:focus, .ibutton:hover { background-color: var(--OCEAN); }
@@ -126,6 +153,15 @@ background-color: var(--IRIS);
 .studio-header
 {
     color: var(--WHITE);
+}
+
+.features
+{
+    display: flex;
+width: 264px;
+flex-direction: raw;
+align-items: flex-start;
+gap: 8px;
 }
 
 .features-list-header
@@ -166,9 +202,30 @@ letter-spacing: var(--letter-spacing-h2);
 text-transform: capitalize;
 }
 
+.works-cards
+{
+    display: inline-flex;
+flex-direction: raw;
+align-items: flex-start;
+}
+
 .team
 {
     background-color: var(--CLOUD);
+}
+
+.team-card
+{
+display: inline-flex;
+padding-bottom: 0px;
+flex-direction: raw;
+justify-content: center;
+align-items: center;
+gap: 32px;
+
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-image
@@ -193,7 +250,7 @@ text-transform: capitalize;
 .our-team-list-header
 {
     color: var(--NAVY);
-/* text-align: center; */
+text-align: center;
 /* Header 3 */
 font-family:  'Roboto', sans-serif;
 font-size: 20px;
@@ -206,7 +263,7 @@ letter-spacing: var(--letter-spacing-h3);
 .our-team-list-text
 {
     color: var(--SLATE);
-/* text-align: center; */
+text-align: center;
 /* Body */
 font-family:  'Roboto', sans-serif;
 font-size: 16px;
@@ -216,7 +273,10 @@ line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
 }
 
-/* portfolio.html main filling */
+/* ===================== index.html main filling =====================*/
+
+
+/* ============= portfolio.html main filling ===================*/
 
 
 .all-pbutton
@@ -263,6 +323,21 @@ background: var(--OCEAN);
     color: var(--WHITE);
 }
 
+.portfolio-card
+{
+    display: flex;
+width: 360px;
+height: 420px;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+flex-shrink: 0;
+
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--WHITE);
+}
+
 .pworks-header 
 {
     color: var(--NAVY);
@@ -288,6 +363,9 @@ letter-spacing: var(--letter-spacing-h3);
     letter-spacing: var(--letter-spacing-text);
 }
 
+/* ============= portfolio.html main filling ===================*/
+
+
 footer
 {
     background: var(--NAVY);
@@ -302,6 +380,9 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: var(--letter-spacing-logo);
 text-transform: uppercase;
+margin-left: 156px;
+margin-top: 101.5px;
+
 }
 .logo-end-down
 {
@@ -313,9 +394,11 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: var(--letter-spacing-logo);
 text-transform: uppercase;
+margin-top: 101.5px;
 }
 .footer-text
 {
+    width: 264px;
     color: var(--CLOUD);
 /* Body */
 font-family:  'Roboto', sans-serif;
@@ -324,4 +407,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: var(--letter-spacing-text);
+margin-left: 156px;
+margin-top: 17.5px;
 }
