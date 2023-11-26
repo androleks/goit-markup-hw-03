@@ -12,7 +12,7 @@
   --letter-spacing-h3: 0.02em;
   --letter-spacing-button-text: 0.02em;
   --letter-spacing-logo: 0.03em;
-  --letter-spacing-text: 0.02em px;
+  --letter-spacing-text: 0.02em;
   --main-header-text: 0.02em;
 }
 
@@ -302,13 +302,11 @@ gap: 24px;
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
     width: calc((100% - 24px * 3) / 4);
-  }
+}
 
 .team-image {
     
   
-    
-    
 
 }
 
@@ -352,13 +350,23 @@ gap: 24px;
 
 /* ============= portfolio.html main filling ===================*/
 
+.pbutton-section {
+    display:flex;
+    align-items: center;
+}
+
+.pbutton-list {
+    display: flex;
+  gap: 40px;
+}
+
 .all-pbutton {
   color: var(--WHITE);
   text-align: center;
   /* Button Text */
-  font-family: "Roboto", sans-serif;
+  
   font-size: 16px;
-  font-style: normal;
+  
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-button-text);
@@ -370,9 +378,9 @@ gap: 24px;
   color: var(--IRIS);
   text-align: center;
   /* Button Text */
-  font-family: "Roboto", sans-serif;
+  
   font-size: 16px;
-  font-style: normal;
+  
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-button-text);
@@ -430,7 +438,20 @@ gap: 24px;
 /* ============= portfolio.html main filling ===================*/
 
 footer {
-  background: var(--NAVY);
+    
+background: var(--NAVY);
+
+}
+
+.footer-contain {
+    display: block;
+    
+
+  align-items: center;
+height: 312px; 
+  padding-left: 156px; 
+  padding-top: 100px; 
+
 }
 .logo-begin-down {
   color: var(--IRIS);
@@ -441,8 +462,7 @@ footer {
   line-height: 1.17;
   letter-spacing: var(--letter-spacing-logo);
   text-transform: uppercase;
-  margin-left: 156px;
-  margin-top: 101.5px;
+  
 }
 .logo-end-down {
   color: var(--CLOUD);
@@ -453,18 +473,18 @@ footer {
   line-height: 1.17;
   letter-spacing: var(--letter-spacing-logo);
   text-transform: uppercase;
-  margin-top: 100px;
+  
 }
 .footer-text {
-  width: 264px;
+  
   color: var(--CLOUD);
-  /* Body */
-  font-family: "Roboto", sans-serif;
+  
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-text);
-  margin-left: 156px;
-  margin-top: 16px;
+  padding-top: 16px;
+  
+  width: 264px; 
+  
 }
