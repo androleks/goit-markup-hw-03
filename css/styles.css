@@ -64,20 +64,25 @@ button {
   margin: 0 auto;
 }
 
-.page-header-container {
-  display: flex;
-
+.header-container {
+  
+    
   align-items: center;
   border-bottom: 1px solid var(--CORNFLOWER);
 
   background: var(--WHITE);
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
 }
 .navi-main {
   display: flex;
   align-items: center;
 }
 .nav-list {
-  display: flex;
+    display: flex;
   gap: 40px;
 }
 
@@ -127,6 +132,7 @@ button {
 }
 
 .address {
+    
   font-style: normal;
   margin-left: auto;
 }
