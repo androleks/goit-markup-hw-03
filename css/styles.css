@@ -368,19 +368,17 @@ button {
   padding-bottom: 120px;
 }
 .pbutton-section {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .pbutton-list {
-    display: flex;
-  gap: 24px; 
+  display: flex;
+  gap: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 72px;
- 
 }
 
 .all-pbutton {
@@ -440,7 +438,7 @@ button {
   display: block;
   width: 360px;
   height: 420px;
-  
+
   border: 1px solid var(--CORNFLOWER);
 
   width: calc((100% - 24px * 2) / 3);
@@ -450,7 +448,8 @@ button {
   background-color: var(--WHITE);
   display: block;
   padding: 32px 16px;
-  
+  border: 1px solid var(--CORNFLOWER);
+
   width: 360px;
 }
 
