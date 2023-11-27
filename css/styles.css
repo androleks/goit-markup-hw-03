@@ -346,6 +346,10 @@ button {
 
 /* ============= portfolio.html main filling ===================*/
 
+.buttons-header {
+
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
