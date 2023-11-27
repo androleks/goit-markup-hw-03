@@ -346,6 +346,11 @@ button {
 
 /* ============= portfolio.html main filling ===================*/
 
+    .main-section-container {
+        display: block;
+
+    }
+
 .buttons-header {
 
 }
