@@ -374,6 +374,7 @@ button {
 }
 
 .pbutton-list {
+    display: flex;
   gap: 24px; 
   display: inline-flex;
   align-items: center;
@@ -427,7 +428,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   gap: 24px;
 }
 
