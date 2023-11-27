@@ -65,8 +65,6 @@ button {
 }
 
 .page-header {
-  
-    
   align-items: center;
   border-bottom: 1px solid var(--CORNFLOWER);
 
@@ -74,15 +72,15 @@ button {
 }
 
 .page-header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .navi-main {
   display: flex;
   align-items: center;
 }
 .nav-list {
-    display: flex;
+  display: flex;
   gap: 40px;
 }
 
@@ -132,7 +130,6 @@ button {
 }
 
 .address {
-    
   font-style: normal;
   margin-left: auto;
 }
@@ -346,13 +343,11 @@ button {
 
 /* ============= portfolio.html main filling ===================*/
 
-    .main-section-container {
-        display: block;
-
-    }
+.main-section-container {
+  display: block;
+}
 
 .buttons-header {
-
 }
 
 .visually-hidden {
@@ -369,11 +364,10 @@ button {
 }
 
 .portfolio-section {
-    padding-top: 96px; 
-    padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .pbutton-section {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -383,7 +377,7 @@ button {
   gap: 24px;
   /* align-items: center; */
   display: inline-flex;
-  justify-content: center; 
+  justify-content: center;
   margin-bottom: 72px;
   /* align-items: flex-start; */
   /* justify-content: center; */
@@ -393,13 +387,10 @@ button {
   color: var(--WHITE);
   text-align: center;
   /* Button Text */
-
   font-size: 16px;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-button-text);
-
   background: var(--OCEAN);
 }
 
@@ -415,7 +406,7 @@ button {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-button-text);
   border: 1px solid var(--CORNFLOWER);
-  border-radius: 4px; 
+  border-radius: 4px;
 
   background: var(--CLOUD);
 }
@@ -425,7 +416,6 @@ button {
   color: var(--WHITE);
   background-color: var(--OCEAN);
   border: 1px solid transparent;
-
 }
 
 .photo-header {
@@ -433,7 +423,6 @@ button {
 }
 
 .portfolio-cards {
-  
 }
 .portfolio-cards-list {
   display: flex;
@@ -451,8 +440,6 @@ button {
   width: 360px;
   height: 420px;
   padding-bottom: 0px;
-
- 
 
   border: 1px solid var(--CORNFLOWER);
   background: var(--WHITE);
@@ -497,7 +484,7 @@ button {
 
 footer {
   background: var(--NAVY);
-  padding-top: 100px; 
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -508,7 +495,7 @@ footer {
   /* padding-top: 100px; */
 }
 .logo-begin-down {
-    display: inline-block;
+  display: inline-block;
   color: var(--IRIS);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -517,7 +504,7 @@ footer {
   line-height: 1.17;
   letter-spacing: var(--letter-spacing-logo);
   text-transform: uppercase;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 .logo-end-down {
   color: var(--CLOUD);
