@@ -430,6 +430,7 @@ button {
   justify-content: center;
   /* margin-bottom: 72px; */
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-cards-row {
@@ -439,10 +440,8 @@ button {
   display: block;
   width: 360px;
   height: 420px;
-  padding-bottom: 0px;
-
+  
   border: 1px solid var(--CORNFLOWER);
-  background: var(--WHITE);
 
   width: calc((100% - 24px * 2) / 3);
 }
@@ -450,9 +449,8 @@ button {
 .portfolio-cards-text {
   background-color: var(--WHITE);
   display: block;
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  
   width: 360px;
 }
 
